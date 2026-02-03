@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'Triesha V H',
     title: 'Student | Christ University',
-    image: getAsset('images/formalphoto3.png'), // Customize or replace with your profile image
+    image: getAsset('images/formalprofile1.png'), // Customize or replace with your profile image
     description:
       'First-year BSc Economics with Data Science student with early exposure to applied data visualization in sports performance.\n' +
       '\n' +
