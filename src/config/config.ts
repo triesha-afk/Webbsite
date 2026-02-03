@@ -16,7 +16,7 @@ const siteConfig = {
       '\n' +
       'Active NCC cadet with experience in leadership, discipline, and national-level training environments' +
       '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
+      'Open to learning and experiencing.',
     tagline: 'Still waters run deep.',
     location: 'Bangalore, India',
   },
@@ -26,7 +26,7 @@ const siteConfig = {
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Student', 'Economics', 'Data Science', 'Builder'],
+  animatedText: ['NCC', 'Economics', 'Data Science', 'Learner'],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -88,16 +88,16 @@ const siteConfig = {
   // ✅ Experience section updated
   experience: [
     {
-      title: 'Your Role',
+      title: 'Volunteer',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
+      place: 'NGOs',
       time: '(MMM YYYY – Present)',
       desp: ['Brief responsibility 1', 'Brief responsibility 2'],
     },
     {
-      title: 'Previous Role',
+      title: 'BRC Appointee',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Previous Organization',
+      place: 'NCC',
       time: '(MMM YYYY – MMM YYYY)',
       desp: ['Key contribution 1', 'Key contribution 2'],
     },
@@ -107,13 +107,13 @@ const siteConfig = {
   // ✅ Projects section updated
   projects: [
     {
-      title: 'Project Title 1',
+      title: 'Data Visualization of study to enhance athlete performance',
       cardImage: getAsset('images/project/placeholder.png'),
       description: 'Short description of your project and what it does...',
       Githublink: 'https://github.com/your-username/your-project',
     },
     {
-      title: 'Project Title 2',
+      title: 'CIAs',
       cardImage: getAsset('images/project/placeholder.png'),
       description: 'Another project summary...',
       Githublink: 'https://github.com/your-username/another-project',
@@ -123,7 +123,7 @@ const siteConfig = {
 
   research: [
     {
-      title: 'Your Paper or Research Title',
+      title: 'Petrichor',
       authors: 'Your Name, Collaborator Name',
       conferences: 'Conference or Journal, Publisher',
       researchYr: 2024,
@@ -140,8 +140,8 @@ const siteConfig = {
 
   books: [
     {
-      title: 'Your Book Title',
-      description: 'Short description of your book or resource.',
+      title: 'PETRICHOR',
+      description: 'Poetry collection',
       image: getAsset('images/book_cover_placeholder.png'),
       link: 'https://example.com/your-book',
     },
