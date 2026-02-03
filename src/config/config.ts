@@ -6,27 +6,27 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
-    image: getAsset('images/profile.png'), // Customize or replace with your profile image
+    name: 'Triesha V H',
+    title: 'Student | Christ University',
+    image: getAsset('images/formalphoto.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'First-year BSc Economics with Data Science student with early exposure to applied data visualization in sports performance.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Interested in combining analytical skills with real-world applications.\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'Active NCC cadet with experience in leadership, discipline, and national-level training environments' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    tagline: 'Still waters run deep.',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Triesha Venkatesh Hosur',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Student', 'Economics', 'Data Science', 'Builder'],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -43,7 +43,7 @@ const siteConfig = {
   // Add more entries here as you add more static HTML blog files under public/static_page/
   blogs: [
     {
-      title: 'Your Blog Title',
+      title: 'TVH Blogs',
       url: getAsset('static_page/project_management_blog.html'), // Replace with your static HTML page
     },
   ],
@@ -51,25 +51,25 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Christ University',
+      degree: 'BSc. Economics with Data Science',
+      year: '2025-Present',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Brief description of your focus or thesis'],
+      description: ['1st Year student'],
     },
     {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      institution: 'Christ Junior College',
+      degree: '11th and 12th Grade',
+      year: '2023-2025',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
+      description: ['Distinction'],
     },
   ],
 
 // ✅ Unified MOOC + Certifications Section
   certifications: [
     {
-      title: 'Your Certificate or Specialization',
+      title: 'NCC B Ceritificate',
       specialization: true,
       file: getAsset('images/education/Certifications/download.svg'),
       certificates: [
@@ -78,7 +78,7 @@ const siteConfig = {
       ],
     },
     {
-      title: 'Another Certificate',
+      title: 'NCC C Certificate',
       file: getAsset('images/education/Certifications/download.svg'),
     },
   ],
@@ -148,9 +148,9 @@ const siteConfig = {
   ],
 
   contact: {
-    email: 'your.email@example.com',
+    email: 'trieshavh@gmail.com',
     linkedin: 'https://www.linkedin.com/in/your-linkedin/',
-    github: 'https://github.com/your-username',
+    github: 'https://github.com/triesha-afk',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
     orcid: 'https://orcid.org/0000-0000-0000-0000',
   },
